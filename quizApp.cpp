@@ -90,7 +90,7 @@ class QuizApp {
         } 
 
         void resultDisplay()    {
-            system("clear");
+                    system("cls");
             Green();
             cout<<"Total Score : "<<score<<"/"<<listOfQuestions.size()<<endl;
         }
